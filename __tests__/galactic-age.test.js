@@ -28,8 +28,8 @@ describe('AgeCalculator', () => {
   });
 
   test('It should correctly create an AgeCalculator object that returns life expectacy of currentAge and demographic in mercuryYears', () => {
-    const mercuryLifeLeft = new AgeCalculator(31);
-    expect(mercuryLifeLeft.lifeExpectancy()).toEqual(198)
+    const mercuryLifeLeft = new AgeCalculator(31, 78);
+    expect(mercuryLifeLeft.mercuryExpectancy()).toEqual(196)
   });
 
 });
