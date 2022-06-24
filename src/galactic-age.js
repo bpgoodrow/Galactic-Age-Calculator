@@ -36,9 +36,9 @@ export class AgeCalculator {
 
   venusExpectancy() {
     if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
-      
+      return (Math.round((this.demographic - this.currentAge) / .62));
     }
-  
+
   }
 
 }
