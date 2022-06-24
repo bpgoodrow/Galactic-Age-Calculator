@@ -1,15 +1,15 @@
 export class AgeCalculator  {
-  constructor(mercuryAge, venusAge, marsAge, jupiterAge) {
-    this.mercuryAge = mercuryAge;
-    this.venusAge = venusAge;
-    this. marsAge = marsAge;
-    this.jupiterAge = jupiterAge;
+  constructor(currentAge) {
+    this.currentAge = currentAge;
   }
-  planetAge() {
-    if (this.mercuryAge === this.mercuryAge) {
-      return (Math.round(this.mercuryAge / .24));
-    } else if (this.venusAge === this.venusAge) {
-      
+  mercuryAge() {
+    if (this.currentAge === this.currentAge) {
+      return (Math.round(this.currentAge / .24));
     }
   }
+
+  venusAge() {
+    
+  }
+
 }
