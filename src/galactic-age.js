@@ -48,7 +48,7 @@ export class AgeCalculator {
 
   jupiterExpectancy() {
     if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
-      return (parseFloat(((this.demographic - this.currentAge) / 11.86).toFixed(2)));
+      return (Math.abs((parseFloat(((this.demographic - this.currentAge) / 11.86).toFixed(2)))));
     }
   }
 
