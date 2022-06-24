@@ -14,6 +14,10 @@ export class AgeCalculator  {
     }
   }
 
+  marsAge() {
+  
+  }
+
   jupiterAge() {
     if (this.currentAge === this.currentAge) {
       return (parseFloat((this.currentAge / 11.86).toFixed(2)));

@@ -17,10 +17,15 @@ describe('AgeCalculator', () => {
     expect(venusYears.venusAge()).toEqual(50);
   });
 
+  test('it should correctly create an AgeCalculator object that returns current age in marsYears', () => {
+    const marsYears = new AgeCalculator(31);
+    expect(marsYears.marsAge()).toEqual(16.48)
+  });
+
   test('It should correctly create an AgeCalculator object that returns current age in jupiterYears', () => {
     const jupiterYears = new AgeCalculator(31);
     expect(jupiterYears.jupiterAge()).toEqual(2.61);
   });
 
-  
+
 });
