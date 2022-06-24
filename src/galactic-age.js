@@ -30,7 +30,7 @@ export class AgeCalculator {
 
   mercuryExpectancy() {
     if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
-      return (Math.round((this.demographic - this.currentAge) / .24));
+      return (Math.abs((Math.round((this.demographic - this.currentAge) / .24))));
     }
   }
 
