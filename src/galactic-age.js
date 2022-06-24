@@ -1,4 +1,4 @@
-// export class Object {
-//   constructor() {
-//   }
-// }
+export class AgeCalculator  {
+  constructor(currentAge) {
+  }
+}
