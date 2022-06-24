@@ -16,7 +16,7 @@ export class AgeCalculator  {
 
   jupiterAge() {
     if (this.currentAge === this.currentAge) {
-      return (Math.round(this.currentAge / 11.86 * 100) / 100);
+      return (parseFloat((this.currentAge / 11.86).toFixed(2)));
     }
   }
 
