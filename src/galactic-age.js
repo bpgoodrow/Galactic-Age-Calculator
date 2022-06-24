@@ -9,7 +9,7 @@ export class AgeCalculator  {
     if (this.mercuryAge === this.mercuryAge) {
       return (Math.round(this.mercuryAge / .24));
     } else if (this.venusAge === this.venusAge) {
-
+      
     }
   }
 }

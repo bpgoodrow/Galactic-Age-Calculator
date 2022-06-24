@@ -5,6 +5,9 @@ describe('AgeCalculator', () => {
   test('should correctly create an AgeCalculator object with one integer for age', () => {
     const newAge = new AgeCalculator(31, 31, 31, 31);
     expect(newAge.mercuryAge).toEqual(31);
+    expect(newAge.venusAge).toEqual(31);
+    expect(newAge.marsAge).toEqual(31);
+    expect(newAge.jupiterAge).toEqual(31);
   });
 
   test('it should correctly create an AgeCalculator object that returns current age in mercuryYears', () => {
