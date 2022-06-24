@@ -19,7 +19,7 @@ describe('AgeCalculator', () => {
 
   test('it should correctly create an AgeCalculator object that returns current age in marsYears', () => {
     const marsYears = new AgeCalculator(31);
-    expect(marsYears.marsAge()).toEqual(16.48)
+    expect(marsYears.marsAge()).toEqual(16.49)
   });
 
   test('It should correctly create an AgeCalculator object that returns current age in jupiterYears', () => {
