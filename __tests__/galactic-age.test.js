@@ -47,4 +47,9 @@ describe('AgeCalculator', () => {
     expect(jupiterLifeLeft.jupiterExpectancy()).toEqual(3.96)
   });
 
+  test('It should correctly create an Agecalculator object that returns life expectancy of currentAge and demographic in mercuryYears in positive value if current age is over demographic age', () => {
+    const mercuryLifeLeft = new AgeCalculator(80, 78);
+    expect(mercuryLifeLeft.mercuryExpectancy()).toEqual(8);
+  });
+
 });
