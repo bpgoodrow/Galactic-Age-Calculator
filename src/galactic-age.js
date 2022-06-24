@@ -34,4 +34,11 @@ export class AgeCalculator {
     }
   }
 
+  venusExpectancy() {
+    if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
+      
+    }
+  
+  }
+
 }

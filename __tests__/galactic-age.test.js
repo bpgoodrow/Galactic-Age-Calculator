@@ -32,4 +32,9 @@ describe('AgeCalculator', () => {
     expect(mercuryLifeLeft.mercuryExpectancy()).toEqual(196)
   });
 
+  test('It should correctly create an AgeCalculator object that returns life expectancy of currentAge and demographic in venusYears', () => {
+    const venusLifeLeft = new AgeCalculator(31, 78)
+    expect(venusLifeLeft.venusExpectancy()).toEqual(76)
+  });
+
 });
