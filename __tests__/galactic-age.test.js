@@ -9,7 +9,7 @@ describe('AgeCalculator', () => {
 
   test('it should correctly create an AgeCalculator object that returns current age in mercuryYears', () => {
     const mercuryYears = new AgeCalculator(31);
-    expect(mercuryYears.mercuryAge()).toEqual(129)
+    expect(mercuryYears.mercuryAge()).toEqual(129);
   });
 
   test('it should correctly create an AgeCalculator object that returns current age in venusYears', () => {
@@ -19,7 +19,7 @@ describe('AgeCalculator', () => {
 
   test('it should correctly create an AgeCalculator object that returns current age in marsYears', () => {
     const marsYears = new AgeCalculator(31);
-    expect(marsYears.marsAge()).toEqual(16.49)
+    expect(marsYears.marsAge()).toEqual(16.49);
   });
 
   test('It should correctly create an AgeCalculator object that returns current age in jupiterYears', () => {
@@ -29,12 +29,17 @@ describe('AgeCalculator', () => {
 
   test('It should correctly create an AgeCalculator object that returns life expectacy of currentAge and demographic in mercuryYears', () => {
     const mercuryLifeLeft = new AgeCalculator(31, 78);
-    expect(mercuryLifeLeft.mercuryExpectancy()).toEqual(196)
+    expect(mercuryLifeLeft.mercuryExpectancy()).toEqual(196);
   });
 
   test('It should correctly create an AgeCalculator object that returns life expectancy of currentAge and demographic in venusYears', () => {
-    const venusLifeLeft = new AgeCalculator(31, 78)
-    expect(venusLifeLeft.venusExpectancy()).toEqual(76)
+    const venusLifeLeft = new AgeCalculator(31, 78);
+    expect(venusLifeLeft.venusExpectancy()).toEqual(76);
+  });
+
+  test('It should correctly create an AgeCalculator object taht returns life expectancy of currentAge and demographic in marsYears', () => {
+    const marsLifeLeft = new AgeCalculator(31, 78);
+    expect(marsLifeLeft.marsExpectancy()).toEqual(25)
   });
 
 });
