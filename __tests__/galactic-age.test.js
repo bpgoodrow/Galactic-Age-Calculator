@@ -13,7 +13,7 @@ describe('AgeCalculator', () => {
   });
 
   test('it should correctly create an AgeCalculator object that returns current age in venusYears', () => {
-    const venusYears = new AgeCalculator("", 31, 31, 31);
-    expect(venusYears.planetAge()).toEqual(50);
+    const venusYears = new AgeCalculator(31);
+    expect(venusYears.venusAge()).toEqual(50);
   });
 });

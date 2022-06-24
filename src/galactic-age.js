@@ -9,7 +9,9 @@ export class AgeCalculator  {
   }
 
   venusAge() {
-    
+    if (this.currentAge === this.currentAge) {
+      return (Math.round(this.currentAge / .62));
+    }
   }
 
 }
