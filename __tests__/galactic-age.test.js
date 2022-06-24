@@ -27,5 +27,8 @@ describe('AgeCalculator', () => {
     expect(jupiterYears.jupiterAge()).toEqual(2.61);
   });
 
+  test('It should correctly create an AgeCalculator object that returns life expectacy of currentAge and demographic in mercuryYears', () => {
+    
+  }
 
 });
