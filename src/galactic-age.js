@@ -46,4 +46,8 @@ export class AgeCalculator {
     }
   }
 
+  jupiterExpectancy() {
+    
+  }
+
 }

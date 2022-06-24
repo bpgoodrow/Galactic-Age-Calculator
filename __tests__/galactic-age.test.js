@@ -37,9 +37,14 @@ describe('AgeCalculator', () => {
     expect(venusLifeLeft.venusExpectancy()).toEqual(76);
   });
 
-  test('It should correctly create an AgeCalculator object taht returns life expectancy of currentAge and demographic in marsYears', () => {
+  test('It should correctly create an AgeCalculator object that returns life expectancy of currentAge and demographic in marsYears', () => {
     const marsLifeLeft = new AgeCalculator(31, 78);
     expect(marsLifeLeft.marsExpectancy()).toEqual(25)
+  });
+
+  test('It should correctly create an AgeCalculator object that returns life expectancy of currentAge and demographic in jupiterYears', () => {
+    const jupiterLifeLeft = new AgeCalculator(31, 78);
+    expect(jupiterLifeLeft.jupiterExpectancy()).toEqual(3.96)
   });
 
 });
