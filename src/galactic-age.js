@@ -14,4 +14,10 @@ export class AgeCalculator  {
     }
   }
 
+  jupiterAge() {
+    if (this.currentAge === this.currentAge) {
+      
+    }
+  }
+
 }
