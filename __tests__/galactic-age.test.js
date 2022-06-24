@@ -6,4 +6,9 @@ describe('AgeCalculator', () => {
     const newAge = new AgeCalculator(31);
     expect(newAge.currentAge).toEqual(31);
   });
+
+  test('it should correctly create an AgeCalculator object that returns current age in mercuryYears', () => {
+    const mercuryAge = new AgeCalculator(31);
+    expect(mercuryAge.planetAge()).toEqual(129.166667)
+  });
 });
