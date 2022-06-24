@@ -42,7 +42,7 @@ export class AgeCalculator {
 
   marsExpectancy() {
     if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
-      return (Math.round((this.demographic - this.currentAge) / 1.88));
+      return (parseFloat(((this.demographic - this.currentAge) / 1.88).toFixed(2)));
     }
   }
 

@@ -57,4 +57,9 @@ describe('AgeCalculator', () => {
     expect(venusLifeLeft.venusExpectancy()).toEqual(3);
   });
 
+  test('It should correctly create an AgeCalculator object that returns life expectancy of currentAge and demographic in marsYears in positive value if current age is over demographic age', () => {
+    const marsLifeLeft = new AgeCalculator(80, 78);
+    expect(marsLifeLeft.marsExpectancy()).toEqual(1.06);
+  });
+
 });
