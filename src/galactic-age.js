@@ -1,10 +1,10 @@
 export class AgeCalculator {
-  constructor(currentAge) {
+  constructor(currentAge, demographic) {
     this.currentAge = currentAge;
   }
 
   mercuryAge() {
-    if (this.currentAge === this.currentAge) {
+    if (this.currentAge === this.currentAge) { 
       return (Math.round(this.currentAge / .24));
     }
   }
@@ -27,6 +27,8 @@ jupiterAge() {
   }
 }
 
-
+lifeExpectancy() {
+    
+  }
 
 }
