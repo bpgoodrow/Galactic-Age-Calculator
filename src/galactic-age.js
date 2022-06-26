@@ -5,49 +5,35 @@ export class AgeCalculator {
   }
 
   mercuryAge() {
-      return (Math.round(this.currentAge / .24));
-    }
+    return (Math.round(this.currentAge / .24));
+  }
 
   venusAge() {
-    if (this.currentAge === this.currentAge) {
-      return (Math.round(this.currentAge / .62));
-    }
+    return (Math.round(this.currentAge / .62));
   }
 
   marsAge() {
-    if (this.currentAge === this.currentAge) {
-      return (parseFloat((this.currentAge / 1.88).toFixed(2)))
-    }
+    return (parseFloat((this.currentAge / 1.88).toFixed(2)))
   }
 
   jupiterAge() {
-    if (this.currentAge === this.currentAge) {
-      return (parseFloat((this.currentAge / 11.86).toFixed(2)));
-    }
+    return (parseFloat((this.currentAge / 11.86).toFixed(2)));
   }
 
   mercuryExpectancy() {
-    if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
-      return (Math.abs((Math.round((this.demographic - this.currentAge) / .24))));
-    }
+    return (Math.abs((Math.round((this.demographic - this.currentAge) / .24))));
   }
 
   venusExpectancy() {
-    if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
-      return (Math.abs((Math.round((this.demographic - this.currentAge) / .62))));
-    }
+    return (Math.abs((Math.round((this.demographic - this.currentAge) / .62))));
   }
 
   marsExpectancy() {
-    if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
-      return (Math.abs((parseFloat(((this.demographic - this.currentAge) / 1.88).toFixed(2)))));
-    }
+    return (Math.abs((parseFloat(((this.demographic - this.currentAge) / 1.88).toFixed(2)))));
   }
 
   jupiterExpectancy() {
-    if ((this.currentAge === this.currentAge) && (this.demographic === this.demographic)) {
-      return (Math.abs((parseFloat(((this.demographic - this.currentAge) / 11.86).toFixed(2)))));
-    }
+    return (Math.abs((parseFloat(((this.demographic - this.currentAge) / 11.86).toFixed(2)))));
   }
 
 }
