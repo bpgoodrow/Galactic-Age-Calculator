@@ -21,7 +21,7 @@ This is a javascript program to return an inputted age and life expectancy based
 
 
 ## Known Bugs
-* N/A
+* No UI yet, html and jquery planned for future work.
 
 ## License
 MIT
