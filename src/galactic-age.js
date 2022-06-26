@@ -5,10 +5,8 @@ export class AgeCalculator {
   }
 
   mercuryAge() {
-    if (this.currentAge === this.currentAge) {
       return (Math.round(this.currentAge / .24));
     }
-  }
 
   venusAge() {
     if (this.currentAge === this.currentAge) {
