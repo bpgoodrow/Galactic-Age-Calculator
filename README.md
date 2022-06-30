@@ -15,9 +15,11 @@ This is a javascript program to return an inputted age and life expectancy based
 ## Setup/Installation Requirements
 * Clone this repository to your desktop.
 * Navigate to the top level directory.
-* Open directory into text-editor.
+* Open Galactic-Age-Calculator directory in text-editor.
 * Run $ npm install in terminal.
 * Run $ npm run build in terminal.
+* Run $ npm run start in terminal.
+* Run $ npm test in terminal to  examine tests for coverage.
 
 
 ## Known Bugs
